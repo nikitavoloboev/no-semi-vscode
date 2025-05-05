@@ -9,6 +9,12 @@ export function activate(context: vscode.ExtensionContext) {
   })
 
   function update(editor: vscode.TextEditor) {
+    // Only apply to .ts and .tsx files
+    const lang = editor.document.languageId
+    if (lang !== 'typescript' && lang !== 'typescriptreact') {
+      return
+    }
+
     const text = editor.document.getText()
     const ranges: vscode.DecorationOptions[] = []
     const regex = /;/g
