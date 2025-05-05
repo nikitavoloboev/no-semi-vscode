@@ -2,7 +2,7 @@
   "publisher": "nikitavoloboev",
   "name": "no-semi",
   "displayName": "No ;",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "pnpm@10.4.1",
   "description": "",
   "author": "Nikita <github@nikiv.dev>",
@@ -43,7 +43,13 @@
     "configuration": {
       "type": "object",
       "title": "No ;",
-      "properties": {}
+      "properties": {
+        "noSemi.enabled": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable hiding semicolons in this workspace"
+        }
+      }
     }
   },
   "scripts": {
