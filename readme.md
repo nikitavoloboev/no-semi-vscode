@@ -12,6 +12,7 @@ pnpm i
 
 ```
 pnpm run build
+vsce package --no-dependencies
 ```
 
 ## 🖤
