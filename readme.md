@@ -1,32 +1,21 @@
-# ext-name
+# No ; VSCode extension
 
-<a href="https://marketplace.visualstudio.com/items?itemName=antfu.ext-name" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/antfu.ext-name.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
-<a href="https://kermanx.github.io/reactive-vscode/" target="__blank"><img src="https://img.shields.io/badge/made_with-reactive--vscode-%23007ACC?style=flat&labelColor=%23229863"  alt="Made with reactive-vscode" /></a>
+Useful for when there are projects that don't hide `;` with formatter but you still don't want to see them without forcing project into new formatter setting.
 
-## Configurations
+## Run
 
-<!-- configs -->
+```
+pnpm i
+```
 
-**No data**
+## Build
 
-<!-- configs -->
+```
+pnpm run build
+```
 
-## Commands
+## 🖤
 
-<!-- commands -->
+Based of [starter-vscode](https://github.com/antfu/starter-vscode).
 
-**No data**
-
-<!-- commands -->
-
-## Sponsors
-
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/antfu/static/sponsors.png'/>
-  </a>
-</p>
-
-## License
-
-[MIT](./LICENSE.md) License © 2022 [Anthony Fu](https://github.com/antfu)
+[![Discord](https://go.nikiv.dev/badge-discord)](https://go.nikiv.dev/discord) [![X](https://go.nikiv.dev/badge-x)](https://x.com/nikitavoloboev) [![nikiv.dev](https://go.nikiv.dev/badge-nikiv)](https://nikiv.dev)
